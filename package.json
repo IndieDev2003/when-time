@@ -27,5 +27,7 @@
     "url": "https://github.com/kartikk221/when-time/issues"
   },
   "homepage": "https://github.com/kartikk221/when-time#readme",
-  "dependencies": {}
+  "devDependencies": {
+    "@types/node": "^26.1.2"
+  }
 }

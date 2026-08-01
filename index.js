@@ -1,4 +1,4 @@
-const TimeTask = require('./src/TimeTask.js');
+import TimeTask from "./src/TimeTask";
 
 /**
  * Returns a TimeTask instance with equalTo mode for the time point.
@@ -10,6 +10,6 @@ function isEqualTo(time_string) {
     return new TimeTask(time_string);
 }
 
-module.exports = {
+export default {
     isEqualTo: isEqualTo,
 };
